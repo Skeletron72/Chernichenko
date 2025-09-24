@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root { cursor: none; }
+
+  a, button, [role="button"], label, summary,
+  input[type="checkbox"], input[type="radio"], select {
+    cursor: none !important;
+  }
+  input[type="text"], textarea, input[type="search"], input[type="email"] { cursor: text !important; }
+}
+
+.custom-cursor,
+.custom-cursor * { pointer-events: none; }
+
+html, body, #root { height: 100%; }
