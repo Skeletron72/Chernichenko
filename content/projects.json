@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "crm",
+      "title": "Мини-CRM для отдела продаж",
+      "summary": "Сделки, воронка, задачи, BI-вью.",
+      "tech": ["Excel", "Python", "Power BI"],
+      "cover": "./uploads/crm-cover.png",
+      "gallery": []
+    },
+    {
+      "id": "game",
+      "title": "Игровой прототип (2D)",
+      "summary": "Экономика, баланс, сохранения.",
+      "tech": ["JS/TS", "Game Engine"],
+      "cover": "./uploads/game-cover.png",
+      "gallery": []
+    }
+  ]
+}
